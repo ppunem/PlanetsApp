@@ -6,7 +6,7 @@ const PlanetItem = props => {
 
   return (
     <div className="planet-container">
-      <img src={planet.imageUrl} alt={planet.name} className="image" />
+      <img src={planet.imageUrl} alt={`planet ${planet.name}`} className="image" />
       <h1 className="name">{planet.name}</h1>
       <p className="description">{planet.description}</p>
     </div>
