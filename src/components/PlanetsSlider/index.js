@@ -8,7 +8,7 @@ const PlanetsSlider = props => {
   const settings = {slidesToShow: 1, dots: false, slidesToScroll: 1}
 
   return (
-    <div className="bg">
+    <div className="bg" data-testid="planets">
       <h1 className="heading">PLANETS</h1>
       <Slider {...settings}>
         {planetsList.map(each => (
